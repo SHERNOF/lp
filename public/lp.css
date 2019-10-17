@@ -1,0 +1,64 @@
+body, html{
+	height: 100%;
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+	background: url(./img/1.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.row{
+	justify-content: center;
+	height: 100%;
+}
+
+#greet {
+	font-size: 4rem;
+	color: #ffffff;
+  }
+
+.buffer {
+	text-align: center;
+	/* height: 4rem; */
+	/* height: 0%; */
+
+}
+.container{
+	height: 100%;
+}
+.hd{
+	text-align: center;
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+ul#icons li {
+	display: inline;
+	/* list-style: none; */
+}
+
+ul {
+	/* list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden; */
+	/* background-color: #333333;*/
+  }
+  
+  /* li {
+	float: left;
+  } */
+  
+  /* li a {
+	display: inline;
+	color: white;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+  }
+   */
+  /* li a:hover {
+	background-color: #ffffff;
+  } */
