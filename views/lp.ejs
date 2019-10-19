@@ -2,47 +2,59 @@
 <html>
 <head>
 	<title>shernof</title>
-<meta  name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<script src="https://kit.fontawesome.com/0d5cd337e9.js" SameSite="None, Secure" crossorigin="anonymous"></script>
-<link rel="stylesheet" type="text/css" href="lp.css">
+	<meta  name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/0d5cd337e9.js" SameSite="None, Secure" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="lp.css">
 </head>
 <body>
 	<div>
 			<nav class="navbar navbar-expand-md navbar-light">
-					<!-- <a class="navbar-brand" href="#">Navbar</a> -->
+					<a class="navbar-brand" href="#">Navbar</a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					  <span class="navbar-toggler-icon"></span>
 					</button>
-				  
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					  <ul class="navbar-nav mr-auto">
+					  <ul class="nav navbar-nav mr-auto">						  
 						<li class="nav-item active">
-						  <!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> -->
+						  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
 						</li>
 						<li class="nav-item">
-						  <!-- <a class="nav-link" href="#">Link</a> -->
+						  <a class="nav-link" href="#">Link</a>
+						  <!-- <img src="./public/img/cgx.jpg"> -->
 						</li>
 						<li class="nav-item dropdown">
-						  <!-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Test
-						  </a>
-						  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="https://www.facebook.com/">Action</a>
-							<a class="dropdown-item" href="#">Another action</a>
-							<div class="dropdown-divider"></div>
-							<a class="dropdown-item" href="#">Something else here</a>
-						  </div> -->
+						  <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img id="cgx" src="./img/cgx.jpg"></a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="https://login.microsoftonline.com/c12007a4-882b-4381-b05a-b783431570c7/saml2?RelayState=https%3A%2F%2Fcognexitsupport.zendesk.com%2Fhc%2Fen-us%2Frequests%2Fnew&brand_id=3030547&SAMLRequest=jZHNTsMwEITvfYrIdydx%2BqPGalJFrZAqFYRa4MDNtbc0IraD1y6FpycNVIID%0AiOvufJrZ2dn8pJvoCA5rawrC4pTMy8EMhW5aXgV%2FMBt4CYA%2B6nQGeb8oSHCG%0AW4E1ciM0IPeSb6vrNc%2FilLfOeittQ74hfxMCEZzvApBotSzIGXBUpBNI1XhK%0A91kOlDHIaT4aT%2BgOdqmSo91IqmGnRwywMuiF8QXJUpZTllKW37EpHzLOskcS%0APVyu67xIVF3MFtZg0OC24I61hPvNuiAH71vkSSLtk4FT7TG0rXU%2BfgejAJ9j%0AaXUipATE5JySlH1TvE%2Fhyn%2FQs%2BQ78NXzTdfIanlrm1q%2BRVXT2NeFA%2BGhIN4F%0AINGVdVr43ztkMesntaL7XspBi7qplHJdUpKUn64%2FH1oOPgA%3D%0A" target="_blank">Zendesk</a>
+								<a class="dropdown-item" href="#">SAP</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Something else here</a>
+							</ul>
 						</li>
 						<li class="nav-item">
 						  <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
 						</li>
 					  </ul>
-					  <form class="form-inline my-2 my-lg-0">
+					  <form id="frm" class="form-inline my- my-lg-4">
 						<!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
 						<!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
-						<iframe scrolling="no" frameborder="no" clocktype="html5" style="overflow:hidden;border:0;margin:0;padding:0;width:240px;height:25px;"src="https://www.clocklink.com/html5embed.php?clock=017&timezone=CCT&color=white&size=240&Title=&Message=&Target=&From=2019,1,1,0,0,0&Color=red"></iframe>		
+						<!-- <iframe scrolling="no" frameborder="no" clocktype="html5" style="overflow:hidden;border:0;margin:0;padding:0;width:240px;height:25px;"src="https://www.clocklink.com/html5embed.php?clock=017&timezone=CCT&color=white&size=240&Title=&Message=&Target=&From=2019,1,1,0,0,0&Color=red"></iframe>		 -->
+						<!-- <iframe scrolling="no" frameborder="no" clocktype="html5" style="overflow:hidden;border:0;margin:0;padding:0;width:450px;height:165px;"src="https://www.clocklink.com/html5embed.php?clock=044&timezone=GMT0800&color=white&size=450&Title=&Message=&Target=&From=2019,1,1,0,0,0&Color=white"></iframe> -->
+						
+						<!-- <ul class="nav">			
+							<li id="li2" class="nav-item dropdown">
+								<a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img id="cgx" src="./img/cgx.jpg"></a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								  <a class="dropdown-item" href="#">Action</a>
+								  <a class="dropdown-item" href="#">Another action</a>
+								  <div class="dropdown-divider"></div>
+								  <a class="dropdown-item" href="#">Something else here</a>
+								</ul>
+							  </li>
+							</ul> -->
+							<iframe id="clk" scrolling="no" frameborder="no" clocktype="html5" style="overflow:hidden;border:0;margin:0;padding:0;width:252px;height:54px;"src="https://www.clocklink.com/html5embed.php?clock=036&timezone=GMT0800&color=white&size=412&Title=&Message=&Target=&From=2019,1,1,0,0,0&Color=white"></iframe>
 					  </form>
 					</div>
 				  </nav>
@@ -53,7 +65,8 @@
 		<div class="row d-flex">
 			<div class="buffer col-12"></div>
 				<div class="hd col-12">
-					<h1 id="greet">Hello Sherwin</h1>
+					<h1 id="greet">Sherwin Nofuente</h1>
+					<h6 id="jb">Senior Test Engineer</h6>
 					<ul id="icons">
 						<li>
 							<a href="https://github.com/" target="_blank"><i class="fab fa-github-square" style="font-size: 48px; color: #596C6C;"></i></a>
@@ -67,16 +80,26 @@
 						<li>
 							<a href="https://www.facebook.com/" target="_blank"><i class="fab fa-linkedin" style="font-size: 48px; color: #596C6C;"></i></a>
 						</li>	
+						<li id="spc"></li>
 						<li>
 							<a href="https://www.facebook.com/" target="_blank"><i class="far fa-envelope" style="font-size: 48px; color: #596C6C;"></i></a> 
 						</li>	
+						<li id="spc"></li>
+						<li>
+							<a href="https://www.facebook.com/" target="_blank"><i class="fas fa-door-open" style="font-size: 48px; color: #596C6C;"></i></a> 
+						</li>	
+						<li id="spc"></li>
 					</ul>
-			
+					<!-- <i class="fas fa-door-open"></i> -->
 				</div>
 				<div class="buffer col-12"></div>
 			</div>
 		</div>
 	</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
 
 </body>
 </html>

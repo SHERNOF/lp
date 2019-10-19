@@ -2,7 +2,7 @@ body, html{
 	height: 100%;
 	width: 100%;
 	font-family: 'Montserrat', sans-serif;
-	background: url(./img/1.jpg) no-repeat center center fixed;
+	background: url(./img/29.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -21,9 +21,6 @@ body, html{
 
 .buffer {
 	text-align: center;
-	/* height: 4rem; */
-	/* height: 0%; */
-
 }
 .container{
 	height: 100%;
@@ -41,5 +38,40 @@ ul#icons li {
 }
 
 #spc {
+	
+}
+
+#jb {
+	font-size: 30px;
+	color: #ffffff;
+}
+
+
+/* ul.nav li.dropdown:hover ul.dropdown-menu { 
+	display: inline; 
+} */
+
+ul.nav li.dropdown:hover ul.dropdown-menu { 
+	display: inline; 
+}
+
+#cgx {
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	border-radius: 5px;
+	padding-bottom: 3px;
+
+}
+
+ul.nav li.dropdown:hover ul.dropdown-menu { 
+	display: inline; 
+	display: inline;
+	padding-bottom: 50px;
+}
+.dropdown-item{
+	color: blue;
+	font-style: segoe ui;
+	font-size: 15px;
 	
 }
