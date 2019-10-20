@@ -33,26 +33,12 @@ body, html{
 
 ul#icons li {
 	display: inline;
-	padding: 10px;
-	
-}
-
-#spc {
-	
+	padding: 10px;	
 }
 
 #jb {
 	font-size: 30px;
 	color: #ffffff;
-}
-
-
-/* ul.nav li.dropdown:hover ul.dropdown-menu { 
-	display: inline; 
-} */
-
-ul.nav li.dropdown:hover ul.dropdown-menu { 
-	display: inline; 
 }
 
 #cgx {
@@ -72,6 +58,35 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 .dropdown-item{
 	color: blue;
 	font-style: segoe ui;
-	font-size: 15px;
+	font-size: 12px;
 	
 }
+  
+  #i1, #i2, #i3, #i4, #i5 {
+	height: 78px; /* [1.1] Set it as per your need */
+	/* color: #ffffff; */
+	overflow: hidden; 
+	/* [1.2] Hide the overflowing of child elements */
+  }
+ 
+  /* [3] Finally, transforming the image when container gets hovered */
+  #i1:hover, #i2:hover, #i3:hover, #i4:hover, #i5:hover {
+	transform: scale(1.5);
+	animation-name: color-change;
+	animation-duration: 5s;
+  }
+
+  @keyframes color-change {
+	from {color:#596C6C;}
+	to {color:white;}
+  }
+
+  /* [2] Transition property for smooth transformation of images */
+  #i1, #i2, #i3, #i4, #i5 {
+	transition: transform 1s ease;
+  }
+
+  #i5-disabled {
+	opacity: 0.6;
+	cursor: not-allowed;
+  }
